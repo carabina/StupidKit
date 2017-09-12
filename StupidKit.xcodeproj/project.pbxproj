@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		31CFC7CF1F67BDDB003995E3 /* StupidKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 31CFC7CD1F67BDDB003995E3 /* StupidKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		31CFC7D71F67BE30003995E3 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CFC7D61F67BE30003995E3 /* UIColorExtension.swift */; };
-		31CFC7D91F67C157003995E3 /* ThreadExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CFC7D81F67C157003995E3 /* ThreadExtension.swift */; };
-		31CFC7DB1F67C3A6003995E3 /* ObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CFC7DA1F67C3A6003995E3 /* ObjectExtension.swift */; };
-		31CFC7E31F67C65E003995E3 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CFC7E21F67C65E003995E3 /* UIViewExtension.swift */; };
-		31CFC7E91F67CBA0003995E3 /* StupidfFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CFC7E81F67CBA0003995E3 /* StupidfFrame.swift */; };
+		31CFC7F41F67E684003995E3 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CFC7EF1F67E684003995E3 /* UIColorExtension.swift */; };
+		31CFC7F51F67E684003995E3 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CFC7F01F67E684003995E3 /* UIViewExtension.swift */; };
+		31CFC7F61F67E684003995E3 /* ObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CFC7F11F67E684003995E3 /* ObjectExtension.swift */; };
+		31CFC7F71F67E684003995E3 /* ThreadExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CFC7F21F67E684003995E3 /* ThreadExtension.swift */; };
+		31CFC7F81F67E684003995E3 /* StupidfFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CFC7F31F67E684003995E3 /* StupidfFrame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		31CFC7CA1F67BDDB003995E3 /* StupidKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StupidKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		31CFC7CD1F67BDDB003995E3 /* StupidKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StupidKit.h; sourceTree = "<group>"; };
 		31CFC7CE1F67BDDB003995E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		31CFC7D61F67BE30003995E3 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
-		31CFC7D81F67C157003995E3 /* ThreadExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreadExtension.swift; sourceTree = "<group>"; };
-		31CFC7DA1F67C3A6003995E3 /* ObjectExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectExtension.swift; sourceTree = "<group>"; };
-		31CFC7E21F67C65E003995E3 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
-		31CFC7E81F67CBA0003995E3 /* StupidfFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StupidfFrame.swift; sourceTree = "<group>"; };
+		31CFC7EF1F67E684003995E3 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		31CFC7F01F67E684003995E3 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		31CFC7F11F67E684003995E3 /* ObjectExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectExtension.swift; sourceTree = "<group>"; };
+		31CFC7F21F67E684003995E3 /* ThreadExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreadExtension.swift; sourceTree = "<group>"; };
+		31CFC7F31F67E684003995E3 /* StupidfFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StupidfFrame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,29 +58,13 @@
 			children = (
 				31CFC7CD1F67BDDB003995E3 /* StupidKit.h */,
 				31CFC7CE1F67BDDB003995E3 /* Info.plist */,
-				31CFC7D51F67BE27003995E3 /* Extension */,
-				31CFC7E71F67CB8A003995E3 /* StupidFrame */,
+				31CFC7EF1F67E684003995E3 /* UIColorExtension.swift */,
+				31CFC7F01F67E684003995E3 /* UIViewExtension.swift */,
+				31CFC7F11F67E684003995E3 /* ObjectExtension.swift */,
+				31CFC7F21F67E684003995E3 /* ThreadExtension.swift */,
+				31CFC7F31F67E684003995E3 /* StupidfFrame.swift */,
 			);
 			path = StupidKit;
-			sourceTree = "<group>";
-		};
-		31CFC7D51F67BE27003995E3 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				31CFC7D61F67BE30003995E3 /* UIColorExtension.swift */,
-				31CFC7D81F67C157003995E3 /* ThreadExtension.swift */,
-				31CFC7DA1F67C3A6003995E3 /* ObjectExtension.swift */,
-				31CFC7E21F67C65E003995E3 /* UIViewExtension.swift */,
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
-		31CFC7E71F67CB8A003995E3 /* StupidFrame */ = {
-			isa = PBXGroup;
-			children = (
-				31CFC7E81F67CBA0003995E3 /* StupidfFrame.swift */,
-			);
-			path = StupidFrame;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,11 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31CFC7E91F67CBA0003995E3 /* StupidfFrame.swift in Sources */,
-				31CFC7D71F67BE30003995E3 /* UIColorExtension.swift in Sources */,
-				31CFC7D91F67C157003995E3 /* ThreadExtension.swift in Sources */,
-				31CFC7E31F67C65E003995E3 /* UIViewExtension.swift in Sources */,
-				31CFC7DB1F67C3A6003995E3 /* ObjectExtension.swift in Sources */,
+				31CFC7F81F67E684003995E3 /* StupidfFrame.swift in Sources */,
+				31CFC7F51F67E684003995E3 /* UIViewExtension.swift in Sources */,
+				31CFC7F71F67E684003995E3 /* ThreadExtension.swift in Sources */,
+				31CFC7F41F67E684003995E3 /* UIColorExtension.swift in Sources */,
+				31CFC7F61F67E684003995E3 /* ObjectExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +322,7 @@
 				31CFC7D41F67BDDB003995E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
