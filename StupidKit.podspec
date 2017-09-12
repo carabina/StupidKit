@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "StupidKit"
   s.version      = "0.0.1"
-  s.summary      = "Easy to develop iOS app in Swift"
+  s.summary      = "Easy"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                   Keep Stupid
+                   个人作品，平时工作常用的开发代码的收集和整理，方便使用
                    DESC
 
   s.homepage     = "https://github.com/bmcciscoding/StupidKit"

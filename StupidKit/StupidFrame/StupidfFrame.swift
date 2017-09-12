@@ -8,7 +8,7 @@
 
 import Foundation
 
-public class StupidFrame {
+open class StupidFrame {
     weak var holdView: UIView!
     
     public var top: CGFloat {
